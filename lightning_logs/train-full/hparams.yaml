@@ -1,0 +1,14 @@
+type_segmentation: regression
+field_path: data-benchmark-zarr/rio-const.zarr
+target_path: data-benchmark-zarr/official-base.zarr
+patch_number: 16
+patch_size: 8
+translate: 10000
+in_channels: 8
+input_shape:
+- 128
+- 128
+emb_dim: 768
+transformer_dropout: 0.1
+emb_dropout: 0.1
+learning_rate: 0.0001
