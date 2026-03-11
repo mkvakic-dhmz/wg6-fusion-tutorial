@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+launch_jupyterlab.sh
+lightning_logs/train
+tutorial.odp
+wg6-fusion.*
+*png
