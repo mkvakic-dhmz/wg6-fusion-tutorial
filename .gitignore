@@ -1,4 +1,5 @@
 .ipynb_checkpoints
+.~lock.tutorial.odp#
 launch_jupyterlab.sh
 lightning_logs/train
 tutorial.odp
