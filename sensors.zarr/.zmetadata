@@ -6,8 +6,8 @@
         },
         "calib/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -22,7 +22,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -34,7 +34,7 @@
         },
         "id/.zarray": {
             "chunks": [
-                1325
+                919
             ],
             "compressor": {
                 "blocksize": 0,
@@ -43,16 +43,12 @@
                 "id": "blosc",
                 "shuffle": 1
             },
-            "dtype": "|O",
+            "dtype": "<U50",
             "fill_value": null,
-            "filters": [
-                {
-                    "id": "vlen-utf8"
-                }
-            ],
+            "filters": null,
             "order": "C",
             "shape": [
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -63,8 +59,8 @@
         },
         "id_mesh/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -79,7 +75,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -91,7 +87,7 @@
         },
         "time/.zarray": {
             "chunks": [
-                192
+                720
             ],
             "compressor": {
                 "blocksize": 0,
@@ -114,12 +110,12 @@
                 "time"
             ],
             "calendar": "proleptic_gregorian",
-            "units": "hours since 2024-11-02 00:00:00"
+            "units": "hours since 2024-11-01"
         },
         "ucal/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -134,7 +130,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -146,8 +142,8 @@
         },
         "urnd/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -162,7 +158,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -174,8 +170,8 @@
         },
         "x/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -190,7 +186,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
@@ -202,8 +198,8 @@
         },
         "y/.zarray": {
             "chunks": [
-                192,
-                1325
+                720,
+                1837
             ],
             "compressor": {
                 "blocksize": 0,
@@ -218,7 +214,7 @@
             "order": "C",
             "shape": [
                 192,
-                1325
+                1837
             ],
             "zarr_format": 2
         },
