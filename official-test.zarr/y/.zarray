@@ -16,7 +16,7 @@
     "order": "C",
     "shape": [
         192,
-        21
+        19
     ],
     "zarr_format": 2
 }
